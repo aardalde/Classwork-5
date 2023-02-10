@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace Adapter_Pattern_Practice
 {
-    internal class Program
+    internal interface ToyBear
     {
-        static void Main(string[] args)
-        {
-
-        }
+        void hug();
     }
 }

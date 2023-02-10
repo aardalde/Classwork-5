@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BearAdapter.cs" />
+    <Compile Include="TeddyBear.cs" />
+    <Compile Include="Grizzly.cs" />
+    <Compile Include="ToyBear.cs" />
+    <Compile Include="Bear.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
