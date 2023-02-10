@@ -2,7 +2,7 @@
  * Aaron Alden
  * CSCI 352
  * February 10, 2023
- * TeddyBear.cs
+ * IBear.cs
  */
 
 using System;
@@ -13,11 +13,9 @@ using System.Threading.Tasks;
 
 namespace Adapter_Pattern_Practice
 {
-    public class TeddyBear : IToyBear
+    public interface IBear
     {
-        public void Hug()
-        {
-            Console.WriteLine("*You are now hugging the overpriced Build-A-Bear bear*");
-        }
+        void Maul();
+        void Hibernate();
     }
 }
