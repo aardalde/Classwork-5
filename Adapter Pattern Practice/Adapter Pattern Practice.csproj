@@ -48,7 +48,7 @@
     <Compile Include="Grizzly.cs" />
     <Compile Include="IToyBear.cs" />
     <Compile Include="IBear.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Client.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -24,6 +24,7 @@ namespace Adapter_Pattern_Practice
 
         public void Hug()
         {
+            Console.WriteLine("Wait a minute. This teddy bear sure looks angry...");
             bear.Maul();
         }
     }
